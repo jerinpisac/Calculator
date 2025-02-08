@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main-body{
+    width: 290px;
+    height: 500px;
+    background: hsl(0, 0%, 15%);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.input-place{
+    width: 100%;
+}
+
+#input{
+    width: 100%;
+    height: 70px;
+    background: hsl(0, 0%, 20%);
+    color: white;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 0px 5px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background: hsl(0, 0%, 30%);
+    color: white;
+    margin: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.row1 button,
+.row .col4 button{
+    background: hsl(35, 100%, 55%);
+}
+
+.row button:hover{
+    background: hsl(0, 0%, 40%);
+}
+
+.row1 button:hover,
+.row .col4 button:hover{
+    background: hsl(35, 100%, 65%);
+}
